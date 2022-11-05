@@ -21,7 +21,11 @@
         <constructor-arg name="yixianggongzuo" value="这是我的意向工作"/>
     </bean>
 
+<!--登陆小案件xml配置-->
 
-
+    <bean id="userdao" class="com.eg.UserDaoImp">    </bean>
+    <bean id="userservice" class="com.eg.UserSeverImp">
+        <property name="userDaoImp" ref="userdao"></property>
+    </bean>
 
 </beans>
