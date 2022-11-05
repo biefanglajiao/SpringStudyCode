@@ -6,4 +6,22 @@
     <bean id="potato" class="com.caz.domin.Potato"></bean>
 <!--    id为花名  class定位对应位置-->
     <bean id="meat" class="com.caz.domin.Meat">    </bean>
+
+<!--    第六章下-->
+<!--    依赖注入 setter-->
+    <bean id="user" class="com.caz.domin.User">
+<property name="username" value="常兆海"></property>
+
+
+        <property name="xinxi" ref="userinfo"></property>
+    </bean>
+<!--    依赖注入  构造方法-->
+    <bean id="userinfo" class="com.caz.domin.Userinfo">
+        <constructor-arg name="jieshao" value="这是我的自我介绍"/>
+        <constructor-arg name="yixianggongzuo" value="这是我的意向工作"/>
+    </bean>
+
+
+
+
 </beans>

@@ -1,5 +1,7 @@
 import com.caz.domin.Meat;
 import com.caz.domin.Potato;
+import com.caz.domin.User;
+import com.caz.domin.Userinfo;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -20,6 +22,32 @@ public class TextDemo1
         Meat meat = ac.getBean("meat", Meat.class); //避免强转
         System.out.println(meat);
     }
+
+
+    @Test
+    public void textuser()//使用setter方法实现依赖注入
+    {
+         ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
+        User user = ac.getBean("user", User.class);
+        user.show();
+    }
+    @Test
+    //使用构造方法实现依赖注入
+    public void  textuser1(){
+        ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
+        Userinfo userinfo = ac.getBean("userinfo", Userinfo.class);
+        userinfo.show();
+    }
+
+    @Test
+    //一对多映射
+    public  void  textuser2(){
+        ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContext.xml");
+        User user = ac.getBean("user", User.class);
+
+        System.out.println(user);
+    }
+
 
 }
 
