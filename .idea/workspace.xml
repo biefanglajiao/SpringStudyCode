@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;mvc 登录小案例">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean2Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean3Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean作用域/单例和原型.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/实例工厂实例化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/构造方法实例化.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/静态工厂实例化.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-    </list>
+    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,16 +28,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "567a49d6e85485116e7bec674a287e92"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;567a49d6e85485116e7bec674a287e92&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.单例和原型.原型">
     <configuration name="单例和原型.原型" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
@@ -136,7 +123,6 @@
       <list>
         <item itemvalue="JUnit.单例和原型.原型" />
         <item itemvalue="JUnit.单例和原型.danli" />
-        <item itemvalue="JUnit.实例工厂实例化.textyou" />
         <item itemvalue="JUnit.实例工厂实例化.textwu" />
         <item itemvalue="JUnit.静态工厂实例化.textyou" />
       </list>
@@ -155,7 +141,7 @@
       <workItem from="1667638771462" duration="155000" />
       <workItem from="1667654896583" duration="7530000" />
       <workItem from="1667718785162" duration="50000" />
-      <workItem from="1667815509993" duration="7659000" />
+      <workItem from="1667815509993" duration="7916000" />
     </task>
     <task id="LOCAL-00001" summary="Spring课堂代码：&#10;第一节 新建一个spring项目">
       <created>1667484165963</created>
@@ -192,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667667388686</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域">
+      <created>1667824975732</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667824975732</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +206,8 @@
     <MESSAGE value="Spring课堂代码：&#10;第一节 新建一个spring项目" />
     <MESSAGE value="Spring课堂代码：&#10;第2节 ioc和依赖注入 以及商品与商品信息" />
     <MESSAGE value="Spring课堂代码：&#10;mvc 登录小案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;mvc 登录小案例" />
+    <MESSAGE value="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
