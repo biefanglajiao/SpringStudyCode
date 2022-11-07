@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第2节 ioc和依赖注入 以及商品与商品信息">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eg/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eg/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eg/UserDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eg/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eg/UserSeverImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/egtext.java" afterDir="false" />
+    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;mvc 登录小案例">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean2Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的实例化/bean3Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bean作用域/单例和原型.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/实例工厂实例化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/构造方法实例化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bean实例化/静态工厂实例化.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
@@ -38,60 +41,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;567a49d6e85485116e7bec674a287e92&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "567a49d6e85485116e7bec674a287e92"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.egtext">
-    <configuration name="TextDemo1.textuser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.单例和原型.原型">
+    <configuration name="单例和原型.原型" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TextDemo1" />
-      <option name="METHOD_NAME" value="textuser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean作用域.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean作用域" />
+      <option name="MAIN_CLASS_NAME" value="bean作用域.单例和原型" />
+      <option name="METHOD_NAME" value="原型" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextDemo1.textuser1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="单例和原型.danli" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TextDemo1" />
-      <option name="METHOD_NAME" value="textuser1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean作用域.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean作用域" />
+      <option name="MAIN_CLASS_NAME" value="bean作用域.单例和原型" />
+      <option name="METHOD_NAME" value="danli" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextDemo1.textuser2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="实例工厂实例化.textwu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TextDemo1" />
-      <option name="METHOD_NAME" value="textuser2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean实例化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean实例化" />
+      <option name="MAIN_CLASS_NAME" value="bean实例化.实例工厂实例化" />
+      <option name="METHOD_NAME" value="textwu" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="egtext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="静态工厂实例化.textyou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="egtext" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean实例化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean实例化" />
+      <option name="MAIN_CLASS_NAME" value="bean实例化.静态工厂实例化" />
+      <option name="METHOD_NAME" value="textyou" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="egtext.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="实例工厂实例化.textyou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="egtext" />
-      <option name="METHOD_NAME" value="login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bean实例化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bean实例化" />
+      <option name="MAIN_CLASS_NAME" value="bean实例化.实例工厂实例化" />
+      <option name="METHOD_NAME" value="textyou" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.egtext" />
-        <item itemvalue="JUnit.egtext.login" />
-        <item itemvalue="JUnit.TextDemo1.textuser2" />
-        <item itemvalue="JUnit.TextDemo1.textuser1" />
-        <item itemvalue="JUnit.TextDemo1.textuser" />
+        <item itemvalue="JUnit.单例和原型.原型" />
+        <item itemvalue="JUnit.单例和原型.danli" />
+        <item itemvalue="JUnit.实例工厂实例化.textyou" />
+        <item itemvalue="JUnit.实例工厂实例化.textwu" />
+        <item itemvalue="JUnit.静态工厂实例化.textyou" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +153,9 @@
       <workItem from="1667480657330" duration="1558000" />
       <workItem from="1667482232736" duration="2321000" />
       <workItem from="1667638771462" duration="155000" />
-      <workItem from="1667654896583" duration="7182000" />
+      <workItem from="1667654896583" duration="7530000" />
+      <workItem from="1667718785162" duration="50000" />
+      <workItem from="1667815509993" duration="7659000" />
     </task>
     <task id="LOCAL-00001" summary="Spring课堂代码：&#10;第一节 新建一个spring项目">
       <created>1667484165963</created>
@@ -148,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667659139366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring课堂代码：&#10;mvc 登录小案例">
+      <created>1667667388686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667667388686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring课堂代码：&#10;第一节 新建一个spring项目" />
     <MESSAGE value="Spring课堂代码：&#10;第2节 ioc和依赖注入 以及商品与商品信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第2节 ioc和依赖注入 以及商品与商品信息" />
+    <MESSAGE value="Spring课堂代码：&#10;mvc 登录小案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;mvc 登录小案例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

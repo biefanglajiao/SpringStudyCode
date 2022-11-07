@@ -27,5 +27,32 @@
     <bean id="userservice" class="com.eg.UserSeverImp">
         <property name="userDaoImp" ref="userdao"></property>
     </bean>
+<!--bean的实例化-->
+<!--    构造方法实例化-->
+<!--    无参-->
+<bean id="bean10" class="com.bean的实例化.bean1"/>
+<!--    有参-->
+    <bean id="bean11" class="com.bean的实例化.bean1">
+       <constructor-arg name="name" value=" zch"/>
+    </bean>
+<!--    静态工厂实例化-->
+<!--  特殊之处：  {class}内填工具包{factory-method}写工具包方法-->
+<!--    无参-->
+    <bean id="bean20" class="com.bean的实例化.bean2Factory" factory-method="creatbean2" />
 
+<!--    有参-->
+    <bean id="bean21" class="com.bean的实例化.bean2Factory" factory-method="creatbean21" />
+<!--    实例工厂实例化-->
+<!--    配置工厂:利用构造器先生成工厂对象。所以class写工厂-->
+    <bean id="mybean3factory" class="com.bean的实例化.bean3Factory" />
+<!--    使用factory-bean属性指向配置的实例工厂-->
+<!--    有参-->
+    <bean id="bean30" factory-bean="mybean3factory" factory-method="creatbean3" />
+<!--无参-->
+    <bean id="bean31" factory-bean="mybean3factory" factory-method="creatbean31" />
+<!--    bean的作用域-->
+<!--    单例-->
+    <bean id="bean12" class="com.bean的实例化.bean1 " scope="singleton" />
+<!--    原型-->
+    <bean id="bean13" class="com.bean的实例化.bean1 " scope="prototype" />
 </beans>
