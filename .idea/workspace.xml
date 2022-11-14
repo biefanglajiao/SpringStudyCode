@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的生命周期/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/基于注解的装配/Jobs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/基于注解的装配/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/基于注解的装配/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/基于注解的装配/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/基于注解的装配/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/自动装配/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bean的装配/自动装配/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean的生命周期/bean的生命周期.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean的装配/mvc案例测试.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bean的装配/测试.java" afterDir="false" />
+    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/proxy/Yellowmermer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/target/TrainStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/target/TrainStationImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdk动态代理/黄牛买票.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.md" beforeDir="false" afterPath="$PROJECT_DIR$/.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -44,22 +38,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;567a49d6e85485116e7bec674a287e92&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JAVA/学习代码/SpringStudyCode/src/test/java",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "567a49d6e85485116e7bec674a287e92"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVA\学习代码\SpringStudyCode\src\test\java" />
       <recent name="D:\JAVA\学习代码\SpringStudyCode" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.bean的生命周期.text">
+  <component name="RunManager" selected="JUnit.黄牛买票.黄牛买票1">
+    <configuration name="黄牛买票.黄牛买票" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringStudyCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdk动态代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdk动态代理" />
+      <option name="MAIN_CLASS_NAME" value="jdk动态代理.黄牛买票" />
+      <option name="METHOD_NAME" value="黄牛买票" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="黄牛买票.黄牛买票1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringStudyCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdk动态代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdk动态代理" />
+      <option name="MAIN_CLASS_NAME" value="jdk动态代理.黄牛买票" />
+      <option name="METHOD_NAME" value="黄牛买票1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="测试.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
       <extension name="coverage">
@@ -108,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="实例工厂实例化.textyou" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringStudyCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bean实例化.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bean实例化" />
-      <option name="MAIN_CLASS_NAME" value="bean实例化.实例工厂实例化" />
-      <option name="METHOD_NAME" value="textyou" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="bean的生命周期.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
       <extension name="coverage">
@@ -158,6 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.黄牛买票.黄牛买票1" />
+        <item itemvalue="JUnit.黄牛买票.黄牛买票" />
         <item itemvalue="JUnit.bean的生命周期.text" />
         <item itemvalue="JUnit.mvc案例测试.text" />
       </list>
@@ -181,7 +195,8 @@
       <workItem from="1667893280885" duration="257000" />
       <workItem from="1667980377739" duration="8924000" />
       <workItem from="1667997957135" duration="23000" />
-      <workItem from="1667998151576" duration="61000" />
+      <workItem from="1667998151576" duration="82000" />
+      <workItem from="1668425058838" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="Spring课堂代码：&#10;第一节 新建一个spring项目">
       <created>1667484165963</created>
@@ -232,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667825205783</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解">
+      <created>1667998218291</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667998218291</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +276,8 @@
     <MESSAGE value="Spring课堂代码：&#10;第2节 ioc和依赖注入 以及商品与商品信息" />
     <MESSAGE value="Spring课堂代码：&#10;mvc 登录小案例" />
     <MESSAGE value="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
+    <MESSAGE value="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

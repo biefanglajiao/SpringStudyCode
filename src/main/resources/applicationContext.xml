@@ -70,5 +70,11 @@
 
 
     </bean>
+
+
+<!--    jdk动态代理-->
+    <bean id="yellow" class="com.jdk动态代理.proxy.Yellowmermer"/>
+    <bean id="trainstation" class="com.jdk动态代理.target.TrainStationImp"/>
 </beans>
+
 
