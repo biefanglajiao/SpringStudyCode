@@ -4,15 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/aspect/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/proxy/Yellowmermer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/target/TrainStation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/target/TrainStationImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdk动态代理/黄牛买票.java" afterDir="false" />
+    <list default="true" id="12f36529-fad0-456c-bdc5-97d58ac8fc11" name="变更" comment="Spring课堂代码：&#10;第八章：jdk动态代理；">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于xml实现aop/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于xml实现aop/target/TrainStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于xml实现aop/target/TrainStationImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于xml实现aop/target/TrainStationimp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于注解实现aop/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AspectJ编程/基于注解实现aop/target/TrainStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CGlib动态代理/Proxy/CGlibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CGlib动态代理/aspect/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/CGlib动态代理/target/TrainStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextAutocglib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextXmlcglibAop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContextXmljdkAop.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AspectJ编程/Autoaop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AspectJ编程/xmlaop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cglib动态代理/黄牛买票.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.md" beforeDir="false" afterPath="$PROJECT_DIR$/.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/proxy/Yellowmermer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jdk动态代理/proxy/Yellowmermer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JAVA/学习代码/SpringStudyCode/src/test/java",
+    "last_opened_file_path": "C:/Users/常兆海/Desktop/1116",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "567a49d6e85485116e7bec674a287e92"
@@ -54,51 +65,45 @@
       <recent name="D:\JAVA\学习代码\SpringStudyCode\src\test\java" />
       <recent name="D:\JAVA\学习代码\SpringStudyCode" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.CGlib动态代理.aspect" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.AspectJ编程.基于注解实现aop.target" />
+      <recent name="com.AspectJ编程.基于xml实现aop.aspect" />
+      <recent name="com.AspectJ编程.基于xml实现aop.target.aspect" />
+      <recent name="com.AspectJ编程.基于注解实现aop.target.aspect" />
+      <recent name="com.AspectJ编程.基于xml实现aop.target" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.黄牛买票.黄牛买票1">
-    <configuration name="黄牛买票.黄牛买票" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Autoaop.autocglibtext">
+    <configuration name="Autoaop.autocglibtext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdk动态代理.*" />
+          <option name="PATTERN" value="AspectJ编程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdk动态代理" />
-      <option name="MAIN_CLASS_NAME" value="jdk动态代理.黄牛买票" />
+      <option name="PACKAGE_NAME" value="AspectJ编程" />
+      <option name="MAIN_CLASS_NAME" value="AspectJ编程.Autoaop" />
+      <option name="METHOD_NAME" value="autocglibtext" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="黄牛买票.黄牛买票 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringStudyCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cglib动态代理.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cglib动态代理" />
+      <option name="MAIN_CLASS_NAME" value="Cglib动态代理.黄牛买票" />
       <option name="METHOD_NAME" value="黄牛买票" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="黄牛买票.黄牛买票1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringStudyCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdk动态代理.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdk动态代理" />
-      <option name="MAIN_CLASS_NAME" value="jdk动态代理.黄牛买票" />
-      <option name="METHOD_NAME" value="黄牛买票1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="测试.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringStudyCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bean的生命周期.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bean的装配" />
-      <option name="MAIN_CLASS_NAME" value="bean的装配.测试" />
-      <option name="METHOD_NAME" value="text" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,33 +141,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bean的生命周期.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="xmlaop.xmlaoptext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean的生命周期.*" />
+          <option name="PATTERN" value="AspectJ编程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bean的生命周期" />
-      <option name="MAIN_CLASS_NAME" value="bean的生命周期.bean的生命周期" />
-      <option name="METHOD_NAME" value="text" />
+      <option name="PACKAGE_NAME" value="AspectJ编程" />
+      <option name="MAIN_CLASS_NAME" value="AspectJ编程.xmlaop" />
+      <option name="METHOD_NAME" value="xmlaoptext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mvc案例测试.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="xmlaop.xmlaoptextdglib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringStudyCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean的装配.注解装配.*" />
+          <option name="PATTERN" value="AspectJ编程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bean的装配.注解装配" />
-      <option name="MAIN_CLASS_NAME" value="bean的装配.注解装配.mvc案例测试" />
-      <option name="METHOD_NAME" value="text" />
+      <option name="PACKAGE_NAME" value="AspectJ编程" />
+      <option name="MAIN_CLASS_NAME" value="AspectJ编程.xmlaop" />
+      <option name="METHOD_NAME" value="xmlaoptextdglib" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xmlaop.xmlaoptextjdk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringStudyCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AspectJ编程.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AspectJ编程" />
+      <option name="MAIN_CLASS_NAME" value="AspectJ编程.xmlaop" />
+      <option name="METHOD_NAME" value="xmlaoptextjdk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,10 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.黄牛买票.黄牛买票1" />
-        <item itemvalue="JUnit.黄牛买票.黄牛买票" />
-        <item itemvalue="JUnit.bean的生命周期.text" />
-        <item itemvalue="JUnit.mvc案例测试.text" />
+        <item itemvalue="JUnit.Autoaop.autocglibtext" />
+        <item itemvalue="JUnit.xmlaop.xmlaoptextdglib" />
+        <item itemvalue="JUnit.xmlaop.xmlaoptextjdk" />
+        <item itemvalue="JUnit.xmlaop.xmlaoptext" />
+        <item itemvalue="JUnit.黄牛买票.黄牛买票 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +218,11 @@
       <workItem from="1667980377739" duration="8924000" />
       <workItem from="1667997957135" duration="23000" />
       <workItem from="1667998151576" duration="82000" />
-      <workItem from="1668425058838" duration="4002000" />
+      <workItem from="1668425058838" duration="4060000" />
+      <workItem from="1668434956875" duration="9000" />
+      <workItem from="1668435133555" duration="633000" />
+      <workItem from="1668477167687" duration="24000" />
+      <workItem from="1668643890672" duration="11258000" />
     </task>
     <task id="LOCAL-00001" summary="Spring课堂代码：&#10;第一节 新建一个spring项目">
       <created>1667484165963</created>
@@ -254,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667998218291</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Spring课堂代码：&#10;第八章：jdk动态代理；">
+      <created>1668429118384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668429118384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +310,8 @@
     <MESSAGE value="Spring课堂代码：&#10;mvc 登录小案例" />
     <MESSAGE value="Spring课堂代码：&#10;第七章： bean的实例化和bean的作用域" />
     <MESSAGE value="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第七章： bean的装配和bean的生命周期以及理解" />
+    <MESSAGE value="Spring课堂代码：&#10;第八章：jdk动态代理；" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring课堂代码：&#10;第八章：jdk动态代理；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+   http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/aop
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <bean id="myaspect" class="com.AspectJ编程.基于注解实现aop.aspect.MyAspect"/>
+    <bean id="trainstation" class="com.AspectJ编程.基于注解实现aop.target.TrainStation"/>
+
+    <!--    自动扫描-->
+    <aop:aspectj-autoproxy/>
+
+
+</beans>

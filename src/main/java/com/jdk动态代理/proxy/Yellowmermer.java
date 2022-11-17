@@ -21,19 +21,19 @@ public class Yellowmermer implements InvocationHandler {
 //        3.-- InvocationHandler 调用处理器 找到真正方法
         this.trainStation=trainStation;
         return Proxy.newProxyInstance(classLoader,interfaces,this);
-
-
-
     }
 
-    /****
-     *
-     *接口方法的实现： 增强的具体形式
-     *  */
+    /***
+     * @param proxy the proxy instance that the method was invoked on
+     *              在其上调用方法的代理实例
+     * @param method 代理的方法
+     * @param args 切入点的方法参数
+     * @return
+     * @throws Throwable
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         MyAspect myAspect = new MyAspect();
-
         myAspect.queue();
         Object invoke = method.invoke(trainStation, args);//实现连接点方法
         myAspect.send();

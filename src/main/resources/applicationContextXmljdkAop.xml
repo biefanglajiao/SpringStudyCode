@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+   http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+   http://www.springframework.org/schema/aop
+   http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+    <bean id="myaspect" class="com.AspectJ编程.基于xml实现aop.aspect.MyAspect"/>
+    <bean id="trainstationimp" class="com.AspectJ编程.基于xml实现aop.target.TrainStationimp1"/>
+    <aop:config >
+<!--             //jdk代理-->
+
+        <aop:pointcut id="pointcut" expression="execution(* com.AspectJ编程.基于xml实现aop.target.TrainStationimp1.* (..))"/>
+
+          <aop:aspect id="aspect" ref="myaspect">
+              <aop:before method="queue" pointcut-ref="pointcut"/>
+              <aop:around method="around" pointcut-ref="pointcut"/>
+<aop:after method="send" pointcut-ref="pointcut"/>
+          </aop:aspect>
+    </aop:config>
+
+
+
+</beans>
